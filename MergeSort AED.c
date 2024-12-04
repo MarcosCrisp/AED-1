@@ -1,3 +1,8 @@
+/*
+Autor: Marcos Paulo Crisp Modesto
+RA: 178.190
+exercício: Entrega de AED
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h> // clock(), CLOCKS_PER_SEC e clock_t
