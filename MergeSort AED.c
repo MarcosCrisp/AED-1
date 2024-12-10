@@ -5,7 +5,7 @@ exercício: Entrega de AED
 */
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h> // clock(), CLOCKS_PER_SEC e clock_t
+#include <time.h> 
 
 int const TAM = 400000; // constante para tamanho do vetor
 
@@ -62,23 +62,19 @@ void mergeSort(int v[], int inicio, int fim) {
 }
 
 int main() {
-    clock_t t; // variável para armazenar tempo
+    clock_t t;
     int vetor[TAM];
 
-    // semente de aleatoriedade
     srand((unsigned)time(NULL));
 
-    // geração aleatória dos valores do vetor
     for (int a = 0; a < TAM; a++)
         vetor[a] = rand() % TAM;
 
-    // Verificando tempo de execução do Merge Sort
-    t = clock(); // armazena tempo
+    t = clock(); 
     mergeSort(vetor, 0, TAM - 1);
-    t = clock() - t; // tempo final - inicial
+    t = clock() - t; 
 
-    // imprime o tempo na tela
-    printf("Tempo de execucao: %lf ms\n", ((double)t) / ((CLOCKS_PER_SEC / 1000))); // conversão para double
+    printf("Tempo de execucao: %lf ms\n", ((double)t) / ((CLOCKS_PER_SEC / 1000)));
 
     return 0;
 }
