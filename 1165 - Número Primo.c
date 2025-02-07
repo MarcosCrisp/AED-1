@@ -1,3 +1,9 @@
+/*
+Autor: Marcos Paulo Crisp Modesto
+RA: 178.190
+exercício: 1165
+*/
+
 #include <stdio.h>
 
 int main()
@@ -24,7 +30,7 @@ int main()
         {
             printf("%d nao eh primo\n", num);
         }
-    j++;
+        j++;
     }
     return 0;
 }

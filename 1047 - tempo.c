@@ -1,3 +1,9 @@
+/*
+Autor: Marcos Paulo Crisp Modesto
+RA: 178.190
+exercício: 1047
+*/
+
 #include <stdio.h>
 
 int main()
@@ -9,7 +15,6 @@ int main()
 
     totalMinutosInicial = horaInicial * 60 + minutoInicial;
     totalMinutosFinal = horaFinal * 60 + minutoFinal;
-
 
     if (totalMinutosFinal <= totalMinutosInicial)
     {
