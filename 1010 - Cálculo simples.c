@@ -14,4 +14,4 @@ int main()
     sum = ((double)b1 * c1) + ((double)b2 * c2);
     printf("VALOR A PAGAR: R$ %.2lf\n", sum);
     return 0;
-}
+} 

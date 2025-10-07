@@ -18,4 +18,4 @@ int main()
     printf("TOTAL = R$ %.2lf\n", soma);
 
     return 0;
-}
+} 

@@ -13,4 +13,4 @@ int main()
     X = (A * B - C * D);
     printf("DIFERENCA = %d\n", X);
     return 0;
-}
+} 

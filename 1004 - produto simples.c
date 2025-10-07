@@ -14,4 +14,4 @@ int main()
     prod = a * b;
     printf("PROD = %d\n", prod);
     return 0;
-}
+} 

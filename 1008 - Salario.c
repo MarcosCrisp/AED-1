@@ -14,4 +14,4 @@ int main()
     printf("NUMBER = %d\n", num);
     printf("SALARY = U$ %.2lf\n", sal);
     return 0;
-}
+} 

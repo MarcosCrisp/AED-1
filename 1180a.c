@@ -29,4 +29,4 @@ int main() {
     printf("Posicao: %d\n", posicao);
     
     return 0;
-}
+} 

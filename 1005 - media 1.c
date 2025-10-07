@@ -15,4 +15,4 @@ int main() {
     media = (((A+B)/11))*10;
     printf("MEDIA = %.5lf\n", media);
     return 0;
-}
+} 

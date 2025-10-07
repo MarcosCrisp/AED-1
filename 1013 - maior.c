@@ -19,4 +19,4 @@ int main()
     maior = max(x, y, z);
     printf("%d eh o maior\n", maior);
     return 0;
-}
+} 

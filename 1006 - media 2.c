@@ -19,4 +19,4 @@ int main()
     med = (a + b + c) / 10;
     printf("MEDIA = %.1lf\n", med);
     return 0;
-}
+} 

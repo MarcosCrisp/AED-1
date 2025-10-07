@@ -26,4 +26,4 @@ int main()
     printf("QUADRADO: %.3lf\n", quadrado);
     printf("RETANGULO: %.3lf\n", retan);
     return 0;
-}
+} 
