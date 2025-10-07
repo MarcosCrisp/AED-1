@@ -3,7 +3,7 @@ Autor: Marcos Paulo Crisp Modesto
 RA: 178.190
 exercício: 1383
 */
-
+  
 #include <stdio.h>
 #define LINHAS 9
 #define COLUNAS 9
